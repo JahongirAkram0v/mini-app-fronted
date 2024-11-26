@@ -1,8 +1,14 @@
-import React from 'react'
+
+const tg = window.Telegram.WebApp;
 
 function App() {
   return (
-    <div>Salom Dunyo</div>
+    <div>
+      <button>
+        close
+        {tg.initData}
+      </button>
+    </div>
   )
 }
 
