@@ -6,8 +6,10 @@ function App() {
     <div>
       <button>
         close
-        {tg.initDataUnsafe}
       </button>
+      <h1>
+        salom
+      </h1>
     </div>
   )
 }
