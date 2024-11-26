@@ -1,9 +1,9 @@
-
+import './App.css';
 const tg = window.Telegram.WebApp;
 
 function App() {
   return (
-    <div>
+    <div className="App">
       <button>
         close
       </button>
