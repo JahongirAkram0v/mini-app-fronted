@@ -6,7 +6,7 @@ function App() {
     <div>
       <button>
         close
-        {tg.initDataUnsafe.user}
+        {tg?.initDataUnsafe?.user}
       </button>
     </div>
   )
