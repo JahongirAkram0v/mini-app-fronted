@@ -21,7 +21,7 @@ function App() {
         salom
       </h1>
       <h2>
-        {tg.initDataUnsafe?.user}
+        {tg.initDataUnsafe?.user?.id}
       </h2>
     </div>
   )
