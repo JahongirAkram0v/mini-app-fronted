@@ -16,7 +16,7 @@ function App() {
     <div className="App">
       <button onClick={onClose}>close</button>
       <h1>salom</h1>
-      {(user) ? <h2>{user}</h2> : <h3>Hayr</h3>}
+      {(user) ? <h2>{user.added_to_attachment_menu}</h2> : <h3>Hayr</h3>}
     </div>
   );
 }
