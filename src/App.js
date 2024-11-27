@@ -22,9 +22,9 @@ function App() {
       <h6>{tg.initDataUnsafe?.chat_type}</h6>
       <h6>{tg.initDataUnsafe?.hash}</h6>
       <h6>{tg.initDataUnsafe?.query_id}</h6>
-      <h6>{tg.initDataUnsafe?.receiver}</h6>
+      <h6>{tg.initDataUnsafe?.receiver?.first_name}</h6>
       <h6>{tg.initDataUnsafe?.start_param}</h6>
-      <h6>{user}</h6>
+      <h6>{user?.first_name}</h6>
     </div>
   );
 }
