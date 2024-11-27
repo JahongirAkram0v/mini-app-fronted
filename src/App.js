@@ -1,7 +1,12 @@
+import { useEffect } from 'react';
 import './App.css';
 const tg = window.Telegram.WebApp;
 
 function App() {
+
+  useEffect(() => {
+    tg.ready();
+  }, [])
 
   const onClose = () => {
     tg.close();
@@ -15,6 +20,9 @@ function App() {
       <h1>
         salom
       </h1>
+      <h2>
+        {tg.initDataUnsafe?.user}
+      </h2>
     </div>
   )
 }
