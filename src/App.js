@@ -15,7 +15,7 @@ function App() {
     <div className="App">
       <button onClick={onClose}>close</button>
       <h1>salom</h1>
-      {(tg.initDataUnsafe?.user) ? <h2>tg.initDataUnsafe?.user</h2> : <h3>Hayr</h3>}
+      {(tg.initDataUnsafe?.user) ? <h2>{tg.initDataUnsafe?.user}</h2> : <h3>Hayr</h3>}
     </div>
   );
 }
